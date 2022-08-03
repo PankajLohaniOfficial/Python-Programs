@@ -1,0 +1,11 @@
+# Program to find the Area of the Circle :
+
+Code:-
+r = int(input("Enter the Radius of the Circle : "))
+area = 3.14*r*r
+print("Area of the Circle is -",area,"units" )
+
+
+Output:-
+Enter the Radius of the Circle : 2
+Area of the Circle is - 12.56 units
