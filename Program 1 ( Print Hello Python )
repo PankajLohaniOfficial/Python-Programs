@@ -1,0 +1,11 @@
+# Program to Print " Hello Python " :-
+
+
+Code :-
+x = "Hello"
+y = "Python"
+print(x,y)
+
+
+Output :-
+Hello Python
