@@ -1,0 +1,18 @@
+CODE :-
+
+for i in range ( 10 , 18 ):
+  print ( " Cube of number " , i , end= " " )
+  print ( " is :" , i ** 3 )
+  
+
+
+OUTPUT :-
+
+ Cube of number  10  is : 1000
+ Cube of number  11  is : 1331
+ Cube of number  12  is : 1728
+ Cube of number  13  is : 2197
+ Cube of number  14  is : 2744
+ Cube of number  15  is : 3375
+ Cube of number  16  is : 4096
+ Cube of number  17  is : 4913
