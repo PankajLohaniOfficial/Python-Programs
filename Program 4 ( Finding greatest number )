@@ -1,0 +1,23 @@
+CODE:-
+
+a=int(input("Enter the value of A :- "))
+b=int(input("Enter the value of B :- "))
+c=int(input("Enter the value of C :- "))
+
+if a>b and a>c:
+    print("A is greater")
+elif b>a and b>c:
+    print("B is greater")
+elif c>a and c>b:
+    print("C is greater")
+else:
+    print("Invalid Input")
+    
+    
+    
+OUTPUT:-
+
+Enter the value of A :- 18
+Enter the value of B :- 14
+Enter the value of C :- 16
+A is greater
