@@ -1,0 +1,49 @@
+CODE :-
+
+
+val1 = int(input("Enter the Value 1 :- " ))
+val2 = int(input("Enter the Value 2 :- " ))
+print()
+
+print( " Note " )
+print( " + for Addition " )
+print( " - for Subtraction " )
+print( " * for Multiplication " )
+print( " / for Division " )
+
+print()
+op = input ("Enter any of the operator ( +,-,*,/ ) :- " )
+
+if op == "+":
+    result=val1+val2
+elif op == "-":
+    result=val1-val2
+elif op == "*":
+    result=val1*val2
+elif op == "/":
+    result=val1/val2
+else:
+    print("Invalid Input")
+
+print()
+
+print( " The Result is :- " , result )
+
+
+
+
+
+OUTPUT :-
+
+Enter the Value 1 :- 10
+Enter the Value 2 :- 200
+
+ Note 
+ + for Addition 
+ - for Subtraction 
+ * for Multiplication 
+ / for Division 
+
+Enter any of the operator ( +,-,*,/ ) :- +
+
+ The Result is :-  210
