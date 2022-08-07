@@ -1,0 +1,20 @@
+Code :-
+
+principal = eval ( input ( "Enter the Principal Value :-" ))
+rate = eval ( input ( "Enter the annual rate of interest :-" ))
+time = int ( input ( "Enter the Time in Years :-" ))
+simple_int = ( principal*rate*time ) / 100
+ammount = principal+simple_int
+print( "Simple Interest = " , simple_int)
+print( "Ammount Payable = " , ammount )
+
+
+
+
+Output :-
+
+Enter the Principal Value :-8000
+Enter the annual rate of interest :-15
+Enter the Time in Years :-5
+Simple Interest =  6000.0
+Ammount Payable =  14000.0
