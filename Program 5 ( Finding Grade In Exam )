@@ -1,0 +1,57 @@
+
+Question  :-  WAP to Check Grade of Student marks :
+
+    Average 	: Grade
+    >= 90       : Outstanding
+    >=60        : Excellent
+    >40	        : Good
+    <=40        : Fail	
+    
+    
+    
+CODE:-  
+    
+s1 = int(input('Enter Subject 1 Marks '))
+
+s2 = int(input('Enter Subject 2 Marks '))
+
+s3 = int(input('Enter Subject 3 Marks '))
+
+s4 = int(input('Enter Subject 4 Marks '))
+
+s5 = int(input('Enter Subject 5 Marks '))
+
+
+total = s1 + s2+ s3+s4+s5
+
+
+avg =total /5
+
+
+print('Total Marks ',total)
+
+print('Average Marks ',avg)
+
+if (avg >=90):
+    print('Outstanding')
+elif (avg >=60):
+    print('Excellent')
+elif (avg >40):
+    print('Good')
+elif (avg<=40):
+    print('Fail')
+else:
+    print('Invalid input')
+    
+
+
+OUTPUT :-
+
+Enter Subject 1 Marks 80
+Enter Subject 2 Marks 20
+Enter Subject 3 Marks 100
+Enter Subject 4 Marks 50
+Enter Subject 5 Marks 100
+Total Marks  350
+Average Marks  70.0
+Excellent
