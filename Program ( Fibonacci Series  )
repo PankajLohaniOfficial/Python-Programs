@@ -1,0 +1,45 @@
+# This is the Program for the Fibonacci Series Using the Tuples
+
+CODE:-
+
+nterms = int(input("Please Enter the number of time fibonacci Seriers you want " ))
+n1 = 0
+n2 = 1
+count = 0
+tup = ()
+
+#check if the number of terms is valid
+if nterms <= 0 :
+    print ( " Please Enter the Positive Number " )
+elif nterms==1:
+    print (" Fibonacci sequence up to " , nterms , " : " )
+    print(n1)
+else:
+    print("Fibonacci sequence upto ", nterms , " : " )
+while count < nterms:
+    tup = tup + (n1,)
+    nth = n1 + n2
+# Now updating the values
+    n1=n2
+    n2=nth
+    count += 1
+    print (tup)
+    
+    
+    
+    
+ OUTPUT :-
+ Please Enter the number of time fibonacci Seriers you want 12
+Fibonacci sequence upto  12  : 
+(0,)
+(0, 1)
+(0, 1, 1)
+(0, 1, 1, 2)
+(0, 1, 1, 2, 3)
+(0, 1, 1, 2, 3, 5)
+(0, 1, 1, 2, 3, 5, 8)
+(0, 1, 1, 2, 3, 5, 8, 13)
+(0, 1, 1, 2, 3, 5, 8, 13, 21)
+(0, 1, 1, 2, 3, 5, 8, 13, 21, 34)
+(0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55)
+(0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89)   
