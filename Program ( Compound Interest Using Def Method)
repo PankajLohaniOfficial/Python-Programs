@@ -1,0 +1,19 @@
+CODE:-
+def compound_interest(principle, rate, time):
+    Amount = principle * (pow((1 + rate / 100), time))
+    CI = Amount - principle
+    print("Compound interest is", CI)
+
+principle = int ( input ( "Enter the principl ammount :- " ))
+rate = int ( input ( "Enter the Rate of Interest :- " ))
+time = int ( input ( "Enter the Time ( in years ) :- " ))
+             
+compound_interest(principle , rate , time)
+
+
+
+OUTPUT:-
+Enter the principl ammount :- 10000
+Enter the Rate of Interest :- 10.25
+Enter the Time ( in years ) :- 5
+Compound interest is 6288.946267774416
