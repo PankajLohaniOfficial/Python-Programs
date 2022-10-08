@@ -1,0 +1,14 @@
+P = float ( input ( " Enter the Principal Ammount :- " ))
+R = float ( input ( " Enter the Rate of Interest :- " ))
+T = int ( input ( " Enter the Time < in Years > :- " ))
+A = P*((1+ (R/100))**T )
+CI = A - P
+print ( " The Compound Interest of the Following given data is :- " , CI )
+
+
+
+OUTPUT :-
+ Enter the Principal Ammount :- 10000
+ Enter the Rate of Interest :- 10.25
+ Enter the Time < in Years > :- 5
+ The Compound Interest of the Following given data is :-  6288.946267774416
