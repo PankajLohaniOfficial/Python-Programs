@@ -1,0 +1,9 @@
+a = int ( input ( " Enter the 1st Number :- " )
+b = int ( input ( " Enter the 2nd Number :- " )
+sum = a + b
+print ( " The Sum of the Two Numbers is " , sum )
+
+OUTPUT
+Enter the 1st Number :- 15
+Enter the 2nd Number :- 20
+The Sum of the Two Numbers is 35
